@@ -1,0 +1,15 @@
+.cartProductdiv{
+  width: 100%;
+  background-color: #eaeae8;
+}
+.cartProduct {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  row-gap: 30px;
+  column-gap: 30px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  background-color: #E9E9E5;
+}

@@ -1,0 +1,124 @@
+.navbar {
+  color: rgb(0, 0, 0);
+  padding: 30px 0;
+  width: 100%;
+  background-color: white;
+}
+.navbar-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-logo > a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #b4d72b;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.navbar-menu > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+}
+.navbar-menu > a:hover {
+  color: #b4d72b;
+  border-bottom: 2px solid #b4d72b;
+}
+.navbar-toggle {
+  display: none;
+}
+@media screen and (max-width: 550px) {
+  .navbar-menu {
+    display: none;
+  }
+  .navabr-notvisible {
+    display: none;
+  }
+  .navbar-toggle {
+    display: block;
+    text-align: end;
+    position: relative;
+  }
+  .navbar-toggle > h2 {
+    margin-top: -2px;
+  }
+  .navbar-toggle > div > a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+  }
+  .navbar-toggle > div > a:hover {
+    color: #b4d72b;
+    border-bottom: 2px solid #b4d72b;
+  }
+}
+/* .navbar-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .navbar-logo {
+      font-size: 1.5rem;
+    }
+    
+    .navbar-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      color: blue;
+    }
+    
+    .navbar-menu.active {
+      max-height: 300px;
+    }
+    
+    .navbar-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .navbar-item {
+      padding: 10px;
+      cursor: pointer;
+    }
+    
+    .navbar-toggle {
+      font-size: 1.5rem;
+      cursor: pointer;
+      display: none;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .navbar-menu {
+        position: static;
+        max-height: none;
+        overflow: visible;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+      }
+    
+      .navbar-toggle {
+        display: block;
+      }
+    } */
