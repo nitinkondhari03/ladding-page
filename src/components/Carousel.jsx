@@ -27,11 +27,9 @@ const Carousel = () => {
   const prevSlide = () => {
     setSlide(slide === 0 ? data.length - 1 : slide - 1);
   };
-useEffect(()=>{
   setInterval(() => {
     setSlide(slide === data.length - 1 ? 0 : slide + 1);
-  }, 4000);
-},[])
+  }, 5000);
 
   const handlemouseEnter = () => {
     setarrorleft("arrow-right");
