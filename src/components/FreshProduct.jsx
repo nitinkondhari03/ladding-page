@@ -13,7 +13,7 @@ const FreshProduct = () => {
             <h4>FRESH & NON-GMO PRODUCTS</h4>
       </div>
       <div className="freshproducttext1">
-            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam quisquam repellat dicta quis natus, officiis eligendi. Iste commodi velit esse inventore dicta exercitationem unde, sit, vel minus eius illo consequatur.</h4>
+            <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex placeat beatae vero non .</h4>
       </div>
     </div>
   );
